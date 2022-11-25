@@ -24,10 +24,13 @@ function multi() {
     var sum=0;
     var p;
     var y=2*n+1;
-    for(var i=0;i<n;i++){
-        p=((Math.pow(x,y))/(y));
+    for(var i=0;i<n;i++) {
+    
+     var y = 2*i+1;
+     alert (y);
+        p=((Math.pow(x,(y)))/(y));
         sum+=p;
-    }
+     }
     document.getElementById("abzatc").innerHTML = ("Сумма равна = ",2*sum);
 }
 </script>
