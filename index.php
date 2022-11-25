@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div class="form-group">
-<h3>Вариант 16.</h3>
+<h3>Вариант 5.</h3>
 <img src="img.jpg" width="600"><p>
   <form name="form" action="obr.php" method="POST">
 <label for="inp_1">Введите число n:</label>
