@@ -18,11 +18,14 @@
     $x=$_POST['subject1'];
     $sum=0;
     $p;
-    $y=2*$n+1;
-    for($i=0;$i<$n;$i++){
-       $p=((pow($x,$y))/($y));
+    
+    for(var i=0;i<n;i++) {
+    
+     $y = 2*$i+1;
+     
+        p=((Math.pow($x,($y)))/($y));
         $sum+=$p;
-    }
+     }
     echo ("Сумма равна = ");
     echo (2*$sum);
     $sum=0;
