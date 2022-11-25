@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<div class="form-group">
+<h3>Вариант 5.</h3>
+<img src="img.jpg" width="600"><p>
+<label for="inp_1">Введите число n:</label>
+  <input type="text" class="form-control" id="num">
+  <p>
+<label for="inp_2">Введите число x:</label>
+  <input type="text" class="form-control" id="xum">
+</div>
+<button onclick="multi()"  class="btn btn-primary" >Вычислить сумму</button>
+<br>
+<p>Сумма равна=<p id="abzatc"></p></p>
+<script>
+function multi() {
+    var n=+(document.getElementById('num').value);
+    var x=+(document.getElementById('xum').value);
+    var sum=0;
+    var p;
+    var y=2*n+1;
+    for(var i=0;i<n;i++){
+        p=((Math.pow(x,y))/(y));
+        sum+=p;
+    }
+    document.getElementById("abzatc").innerHTML = ("Сумма равна = ",2*sum);
+}
+</script>
+</body>
+</html>
